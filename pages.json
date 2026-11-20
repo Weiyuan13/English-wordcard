@@ -1,0 +1,95 @@
+{
+    "easycom": {
+        "autoscan": true
+    },
+    "pages": [
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "六级词卡",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/learn/learn",
+            "style": {
+                "navigationBarTitleText": "每日背诵",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/review/review",
+            "style": {
+                "navigationBarTitleText": "每日复习",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/search/search",
+            "style": {
+                "navigationBarTitleText": "查单词",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/search-log/search-log",
+            "style": {
+                "navigationBarTitleText": "查词记录",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/settings/settings",
+            "style": {
+                "navigationBarTitleText": "学习设置",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/favorites/favorites",
+            "style": {
+                "navigationBarTitleText": "我的收藏",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/progress/progress",
+            "style": {
+                "navigationBarTitleText": "学习档案",
+                "enablePullDownRefresh": false
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "backgroundColor": "#F5F6F8",
+        "app-plus": {
+            "background": "#F5F6F8"
+        }
+    },
+    "tabBar": {
+        "color": "#8A8F99",
+        "selectedColor": "#3A7AFE",
+        "backgroundColor": "#FFFFFF",
+        "borderStyle": "black",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "今日"
+            },
+            {
+                "pagePath": "pages/learn/learn",
+                "text": "背诵"
+            },
+            {
+                "pagePath": "pages/review/review",
+                "text": "复习"
+            },
+            {
+                "pagePath": "pages/search/search",
+                "text": "查词"
+            }
+        ]
+    }
+}
